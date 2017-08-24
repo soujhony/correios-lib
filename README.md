@@ -1,7 +1,7 @@
 # correios-lib
 Biblioteca para acesso de funções relacionadas aos correios brasileiros
 
-Baseada em [correios-consulta](https://github.com/cagartner/correios-consulta)
+Biblioteca baseada no projeto [cagartner/correios-consulta](https://github.com/cagartner/correios-consulta)
 
 ## Forma de usar
 
