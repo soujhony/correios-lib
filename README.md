@@ -6,14 +6,14 @@ Baseada em [correios-consulta](https://github.com/cagartner/correios-consulta)
 ## Forma de usar
 
 ### Instalação
-```
+``` bash
 npm install git+https://github.com/jhonystein/correios-lib.git
 ```
 
 ### Funcionalidades
 
 1 - Consulta de CEP
-```
+``` javascript
 const correios = require('correios-lib')
 
 correios.cep('<CEP a ser consultado>')
@@ -25,7 +25,7 @@ correios.cep('<CEP a ser consultado>')
 ```
 
 2 - Consulta de Rastreio
-```
+``` javascript
 const correios = require('correios-lib')
 
 correios.rastreio('<Código de rastreio>')
@@ -37,19 +37,19 @@ correios.rastreio('<Código de rastreio>')
 ```
 
 3 - Consulta de Frete
-```
+``` javascript
 const correios = require('correios-lib')
 
 var objFrete = {
   servico: '<código ou lista dos códigos de serviço>',
-	cepOrigem: '<cep da origem da mercadoria>',
-	cepDestino: '<cep de destino da mercadoria>',
-	peso: <peso da mercadoria>,
-	formato: <formato da embalagem>,
-	comprimento: <comprimento da embalagem>,
-	altura: <altura da embalagem>,
-	largura: <largura da embalagem>,
-	diametro: <diâmetro da embalagem>
+  cepOrigem: '<cep da origem da mercadoria>',
+  cepDestino: '<cep de destino da mercadoria>',
+  peso: '<peso da mercadoria>',
+  formato: '<formato da embalagem>',
+  comprimento: '<comprimento da embalagem>',
+  altura: '<altura da embalagem>',
+  largura: '<largura da embalagem>',
+  diametro: '<diâmetro da embalagem>'
 }
 
 correios.frete(objFrete)
