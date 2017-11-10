@@ -8,6 +8,10 @@
   },
   "author": "Jhony Alceu Pereira <jhonystein@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonystein/correios-lib.git"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "got": "^7.1.0",
