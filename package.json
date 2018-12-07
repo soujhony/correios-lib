@@ -1,6 +1,6 @@
 {
   "name": "correios-lib",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Biblioteca para acesso de funções relacionadas aos correios brasileiros",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,6 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "got": "^7.1.0",
-    "soap": "^0.20.0"
+    "soap": "^0.25.0"
   }
 }
